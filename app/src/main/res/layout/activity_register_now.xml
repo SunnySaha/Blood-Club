@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/DarkSlateBlue"
+    tools:context=".RegisterNow">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:hint="Name "
+            android:inputType="text"
+            android:layout_margin="10dp"
+
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/number"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:hint="Phone Number"
+            android:inputType="number"
+            android:layout_margin="10dp"
+            />
+
+        <Spinner
+            android:id="@+id/bloodgroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/bloodgroup"
+            android:layout_margin="10dp"
+            android:spinnerMode="dialog">
+
+
+        </Spinner>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/age"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:hint="Age"
+            android:inputType="number"
+            android:layout_margin="10dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/address"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:hint="Current Address"
+            android:inputType="text"
+            android:layout_margin="10dp"
+            />
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lastdate"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:hint="Last Donate Date If have"
+            android:inputType="text"
+            android:layout_margin="10dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:hint="Enter Email (Required)"
+            android:inputType="textEmailAddress"
+            android:layout_margin="10dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/password"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:hint="Enter password (Required)"
+            android:inputType="textPassword"
+            android:layout_margin="10dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/registrationId"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Register"
+            android:background="@color/DarkSlateBlue"
+            android:textAllCaps="false"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/backlogin"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Back to login"
+            android:background="@color/DarkSlateBlue"
+            android:textAllCaps="false"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="5dp"
+
+            />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

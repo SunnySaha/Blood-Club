@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+
+            android:id="@+id/opositiveId"
+            android:title="O Positive">
+
+        </item>
+
+        <item
+
+            android:id="@+id/onegativeId"
+            android:title="O Negative">
+
+        </item>
+        <item
+
+            android:id="@+id/apositiveId"
+            android:title="A Positive">
+
+        </item>
+        <item
+
+            android:id="@+id/anegativeId"
+            android:title="A Negative">
+
+        </item>
+        <item
+
+            android:id="@+id/abpositiveId"
+            android:title="AB Positive">
+
+        </item>
+        <item
+
+            android:id="@+id/abnegativeId"
+            android:title="AB Negative">
+
+        </item>
+        <item
+
+            android:id="@+id/bpositiveId"
+            android:title="B Positive">
+
+        </item>
+        <item
+
+            android:id="@+id/bnegativeId"
+            android:title="B Negative">
+
+        </item>
+
+
+    </group>
+
+
+
+
+</menu>

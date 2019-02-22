@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Donate Blood</string>
+    <string name="nav_open">Navigation Open</string>
+    <string name="nav_closed">Navigation Closed</string>
+
+    <array name="bloodgroup">
+        <item>O Positive</item>
+        <item>O Negative</item>
+        <item>A Positive</item>
+        <item>A Negative</item>
+        <item>AB Positive</item>
+        <item>AB Negative</item>
+        <item>B Positive</item>
+        <item>B Negative</item>
+
+    </array>
+</resources>
